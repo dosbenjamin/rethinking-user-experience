@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* Fonts */
+@font-face {
+    font-family: 'Inter UI';
+    font-weight: 100 900;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url("../fonts/inter-ui-upright.var.woff2") format("woff2 supports variations(gvar)"),
+         url("../fonts/inter-ui-upright.var.woff2") format("woff2-variations"),
+         url("../fonts/inter-ui-upright.var.woff2") format("woff2");
+}
+@font-face {
+    font-family: 'Galderglynn Titling';
+    font-weight: 800;
+    font-style: normal;
+    src: url("../fonts/galderglynn-titling-bold.ttf");
+}
+/* Variables */
+:root {
+    --space: 36px;
+    --twoSpaces: calc(var(--space) * 2);
+    --threeSpaces: calc(var(--space) * 3);
+    --fourSpaces: calc(var(--space) * 4);
+    --fiveSpaces: calc(var(--space) * 5);
+    --halfSpace: calc(var(--space) / 2);
+}
+/* Global */
+html {
+    font-size: 20px;
+}
+body {
+    font-family: 'Inter UI', Arial, Helvetica, sans-serif;
+    font-weight: 350;
+    color: #fff;
+    line-height: 2;
+}
+p {
+    margin: 0 0 var(--space) 0;
+}
+p:last-child {
+    margin: 0;
+}
+.title {
+    font-family: 'Galderglynn Titling';
+    text-transform: uppercase;
+    font-size: 1.2em;
+    line-height: 1.1;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-bottom: var(--twoSpaces);
+}
+.title--big {
+    font-size: 1.44em;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.section--landing__title {
+    font-size: 15vw;
+    margin-bottom: 0;
+}
+.title-alt {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.728em;
+    line-height: 1.7;
+}
+.title-alt::after {
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    margin: var(--twoSpaces) 0; 
+}
+.section {
+    position: relative;
+    padding: var(--twoSpaces) var(--space);
+}
+.section::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-color: #131313;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.section--white {
+    color: #000;
+}
+.section--white::before {
+    background-color: #fff;
+}
+.section--landing {
+    display: flex;
+    flex-direction: column-reverse;
+    height: calc(100vh - var(--threeSpaces));
+    padding-bottom: 0;
+}
+.list-img {
+    margin: var(--twoSpaces) 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw - var(--twoSpaces));
+}
+.list-img__item {
+    display: flex;
+    display: inline-block;
+    width: calc(50% - var(--halfSpace));
+    margin-bottom: var(--space);
+}
+.list-img__item:last-child {
+    margin-bottom: 0;
+}
+.list-img__item:nth-child(2n) {
+    margin-left: var(--space);
+}
+.list-img__picture {
+    position: relative;
+    display: block;
+    margin: auto;
+    background-color: #EFEFEF;
+}
+.list-img__picture::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: var(--fourSpaces);
+    width: 200px;
+    display: block;
+}
+
+
+
+
+.table {
+    padding: var(--space);
+    background-color: #252525;
+    margin-bottom: var(--space);
+}
+.table__header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--twoSpaces);
+    position: relative;
+}
+.table__header::after {
+    content: '';
+    margin-top: var(--twoSpaces);
+    bottom: -100%;
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: #9B9B9B;
+}
+.table__image {
+    width: var(--space);
+    height: var(--space);
+}
+.table__title {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.table__list-cat {
+    text-transform: uppercase;
+    color: #9B9B9B;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: var(--space);
+}
+.table__list-item {
+    position: relative;
+}
+.table__list-item:last-child {
+    margin-bottom: var(--space);
+}
+.table__list:last-child .table__list-item:last-child {
+    margin-bottom: 0;
+}
+.table__list-item::before {
+    content: '→\00a0';
+    position: absolute;
+    left: -26px;
+}
