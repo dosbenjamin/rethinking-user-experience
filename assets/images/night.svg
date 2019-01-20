@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="144px" viewBox="0 0 152 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>night</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pixel-2" transform="translate(-36.000000, -4756.000000)">
+            <g id="night" transform="translate(36.000000, 4756.000000)">
+                <rect id="Rectangle-Copy-15" fill="#252525" x="0" y="0" width="152" height="144"></rect>
+                <path d="M81.7979275,95 C69.2267703,95 59,84.6825833 59,72 C59,59.3174167 69.2267703,49 81.7979275,49 C85.3962003,49 88.6943005,49.9525833 92,51.25975 C86.3993092,52.22575 74.1986183,57.5195833 74.1986183,72 C74.1986183,86.2868333 85.4398964,91.5653333 92,92.74025 C89.1502591,94.36175 85.3962003,95 81.7979275,95 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

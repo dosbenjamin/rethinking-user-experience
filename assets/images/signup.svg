@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="144px" viewBox="0 0 152 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>signup</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pixel-2" transform="translate(-36.000000, -3461.000000)">
+            <g id="signup" transform="translate(36.000000, 3461.000000)">
+                <rect id="Rectangle-Copy-3" fill="#252525" x="0" y="0" width="152" height="144"></rect>
+                <path d="M70,86 L62,86 L62,82 L70,82 L70,86 Z M75.9552529,78 L82,84.1546085 L74,86 L75.9552529,78 Z M99,67.0034831 L84.0578378,82 L78,75.9946414 L92.9421622,61 L99,67.0034831 Z M87.2,83.58625 L87.2,91.1666667 L56.8,91.1666667 L56.8,52.8333333 L70.7878,52.8333333 C78.6842,52.8333333 75.8,64.3333333 75.8,64.3333333 C75.8,64.3333333 80.1947,63.11625 83.5273,64.0784167 L87.2361,60.2910833 C83.0295,54.911 76.2883,49 72.3591,49 L53,49 L53,95 L91,95 L91,79.705 L87.2,83.58625 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
