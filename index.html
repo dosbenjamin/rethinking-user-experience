@@ -12,9 +12,22 @@
     </head>
 
     <body>
-        <header class="section landing">
+        <header id="accueil" class="section landing">
             <h1 class="title title--veryBig">Re-<br> thinking<br> UX<br> ↓</h1>
-            <button class="landing__burger">menu</button>
+            <button class="burger">
+                <span class="burger__item">menu</span>
+                <span class="burger__item">fermer</span>
+            </button>
+            <nav class="menu">
+                <ul class="menu__container">
+                    <li class="menu__item"><a class="link" href="#accueil">→ Accueil</a></li>
+                    <li class="menu__item"><a class="link" href="#choix">→ Notre choix</a></li>
+                    <li class="menu__item"><a class="link" href="#fonctionnalites">→ Fonctionnalités</a></li>
+                    <li class="menu__item"><a class="link" href="#demarche">→ Démarche</a></li>
+                    <li class="menu__item"><a class="link" href="#ameliorations">→ Améliorations</a></li>
+                    <li class="menu__item"><a class="link" href="#groupe">→ Groupe</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
             <section class="section">
@@ -24,38 +37,38 @@
                     d'en identifier les problèmes et de proposer ainsi qu'argumenter une proposition d'amélioration.
                 </p>
             </section>
-            <section class="section section--white">
+            <section id="choix" class="section section--white">
                 <h3 class="title title--big">Notre choix</h3>
                 <p>Cette année, pour le workshop Rethinking UX, nous avons eu le choix entre cinq services.</p>
                 <ul class="listImg">
                     <li class="listImg__item">
                         <figure>
                             <img class="listImg__picture" src="assets/images/medium-framed.svg" alt="">
-                            <figcaption class="listImg__caption">Medium</figcaption>
+                            <figcaption class="tiny">Medium</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img class="listImg__picture" src="assets/images/pinterest-framed.svg" alt="">
-                            <figcaption class="listImg__caption">Pinterest</figcaption>
+                            <figcaption class="tiny">Pinterest</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img class="listImg__picture" src="assets/images/ubereats-framed.svg" alt="">
-                            <figcaption class="listImg__caption">UberEats</figcaption>
+                            <figcaption class="tiny">UberEats</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img class="listImg__picture" src="assets/images/whatsapp-framed.svg" alt="">
-                            <figcaption class="listImg__caption">WhatsApp</figcaption>
+                            <figcaption class="tiny">WhatsApp</figcaption>
                         </figure>
                     </li>
-                    <li class="listImg__item">
+                    <li class="listImg__item listImg__item--large">
                         <figure>
                             <img class="listImg__picture" src="assets/images/twitter-framed.svg" alt="">
-                            <figcaption class="listImg__caption">Twitter</figcaption>
+                            <figcaption class="tiny">Twitter</figcaption>
                         </figure>
                     </li>
                 </ul>
@@ -71,91 +84,91 @@
                     caractères.
                 </p>
             </section>
-            <section class="section">
+            <section id="fonctionnalites" class="section">
                 <h3 class="title title--big">Fonctionnalités</h3>
                 <ul class="listImg">
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/signup.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Inscription</figcaption>
+                            <figcaption class="tiny">Inscription</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/signin.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Connexion</figcaption>
+                            <figcaption class="tiny">Connexion</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/signout.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Déconnexion</figcaption>
+                            <figcaption class="tiny">Déconnexion</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/tweet.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Tweet</figcaption>
+                            <figcaption class="tiny">Tweet</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/message.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Message</figcaption>
+                            <figcaption class="tiny">Message</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/follow.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Abonnement</figcaption>
+                            <figcaption class="tiny">Abonnement</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/edit.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Éditer profil</figcaption>
+                            <figcaption class="tiny">Éditer profil</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/list.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Liste</figcaption>
+                            <figcaption class="tiny">Liste</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/moments.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Moments</figcaption>
+                            <figcaption class="tiny">Moments</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/settings.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Paramètres</figcaption>
+                            <figcaption class="tiny">Paramètres</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/up.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Retour haut</figcaption>
+                            <figcaption class="tiny">Retour haut</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/trends.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Tendances</figcaption>
+                            <figcaption class="tiny">Tendances</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/night.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Mode nuit</figcaption>
+                            <figcaption class="tiny">Mode nuit</figcaption>
                         </figure>
                     </li>
                     <li class="listImg__item">
                         <figure>
                             <img src="assets/images/search.svg" alt="" class="listImg__picture">
-                            <figcaption class="listImg__caption">Recherche</figcaption>
+                            <figcaption class="tiny">Recherche</figcaption>
                         </figure>
                     </li>
                 </ul>
@@ -173,7 +186,7 @@
                     <li class="listText__item">développement d'une communauté.</li>
                 </ul>
             </section>
-            <section id="problem" class="section section--white">
+            <section id="demarche" class="section section--white">
                 <h3 class="title title--big">Démarche</h3>
                 <img class="imageWide" src="assets/images/follow.svg" alt="">
                 <p>
@@ -203,37 +216,37 @@
                         prendre compte et sur base des tweets indiqués comme telle, l’algorythme va essayer d'améliorer
                         notre fil en éliminant ce type de contenu.
                     </p>
-                    <ul class="imgSlider">
-                        <li class="imgSlider__item">
-                            <figure>
-                                <img class="imgSlider__picture" src="assets/images/tweet.png" alt="">
-                                <figcaption class="imgSlider__caption">Exemple de tweet que l'on ne souhaite plus voir.</figcaption>
+                    <ul id="sliderOne" class="slider">
+                        <li class="slider__item">
+                            <figure class="imgBlock">
+                                <img class="imgBlock__picture" src="assets/images/tweet.png" alt="">
+                                <figcaption class="imgBlock__caption">Exemple de tweet que l'on ne souhaite plus voir.</figcaption>
                             </figure>
                         </li>
-                        <li class="imgSlider__item">
-                            <figure>
-                                <img class="imgSlider__picture" src="assets/images/tweet-arrow.png" alt="">
-                                <figcaption class="imgSlider__caption">Menu présent en haut à gauche d'un tweet.</figcaption>
+                        <li class="slider__item">
+                            <figure class="imgBlock">
+                                <img class="imgBlock__picture" src="assets/images/tweet-arrow.png" alt="">
+                                <figcaption class="imgBlock__caption">Menu présent en haut à gauche d'un tweet.</figcaption>
                             </figure>
                         </li>
-                        <li class="imgSlider__item">
-                            <figure>
-                                <img class="imgSlider__picture" src="assets/images/tweet-menu.png" alt="">
-                                <figcaption class="imgSlider__caption">Bouton qui sert à indiquer lorsqu'un tweet ne nous intéresse pas.</figcaption>
+                        <li class="slider__item">
+                            <figure class="imgBlock">
+                                <img class="imgBlock__picture" src="assets/images/tweet-menu.png" alt="">
+                                <figcaption class="imgBlock__caption">Bouton qui sert à indiquer lorsqu'un tweet ne nous intéresse pas.</figcaption>
                             </figure>
                         </li>
-                        <li class="imgSlider__item">
-                            <figure>
-                                <img class="imgSlider__picture" src="assets/images/tweet-feed.jpg" alt="">
-                                <figcaption class="imgSlider__caption">Message de confirmation une fois l'action effectuée.</figcaption>
+                        <li class="slider__item">
+                            <figure class="imgBlock">
+                                <img class="imgBlock__picture" src="assets/images/tweet-feed.jpg" alt="">
+                                <figcaption class="imgBlock__caption">Message de confirmation une fois l'action effectuée.</figcaption>
                             </figure>
                         </li>
                     </ul>
-                    <ul class="sliderIndicator sliderIndicator--onWhite">
-                        <li class="sliderIndicator__item sliderIndicator__item--onWhiteEnabled">Item 1</li>
-                        <li class="sliderIndicator__item">Item 2</li>
-                        <li class="sliderIndicator__item">Item 3</li>
-                        <li class="sliderIndicator__item">Item 4</li>
+                    <ul id="sliderOneIndicator" class="sliderIndicator sliderIndicator--onWhite">
+                        <li class="sliderIndicator__item sliderIndicator__item--enabled">Tweet</li>
+                        <li class="sliderIndicator__item">Tweet arrow</li>
+                        <li class="sliderIndicator__item">Tweet menu</li>
+                        <li class="sliderIndicator__item">Tweet feed</li>
                     </ul>
                 </div>
                 <div>
@@ -249,10 +262,10 @@
                         rafraichi le
                         tweet précedement indiqué est de nouveau proposer et le fil n’est d’aucune manière amélioré.
                     </p>
-                    <a class="button button--black" href="">Voir test en images</a>
+                    <a class="link link--framed link--white link--framedAlt" href="">Voir test en images</a>
                 </div>
             </section>
-            <section class="section">
+            <section id="ameliorations" class="section">
                 <h3 class="title title--big">Améliorations</h3>
                 <p>
                     C'est durant cette phase du projet que j'ai cherché à trouver une bonne solution, qui permettrait
@@ -260,47 +273,47 @@
                     service qui ressemblait à Twitter et qui proposait des fonctionnalités similaires.
                 </p>
                 <h4 class="title">Comparatif</h4>
-                <ul class="tableSlider">
-                    <li class="tableSlider__item">
-                        <figure class="tableSlider__header">
-                            <img class="tableSlider__image" src="assets/images/pinterest.svg" alt="">
-                            <figcaption class="tableSlider__title">Pinterest</figcaption>
+                <ul id="sliderTwo" class="slider slider--framed">
+                    <li class="slider__item table">
+                        <figure class="table__header">
+                            <img class="table__image" src="assets/images/pinterest.svg" alt="">
+                            <figcaption class="tiny tiny--bigger tiny--white">Pinterest</figcaption>
                         </figure>
-                        <small class="tableSlider__subtitle">Avantages</small>
+                        <small class="tiny">Avantages</small>
                         <ul class="listText">
                             <li class="listText__item">Follow des thématiques précises;</li>
                             <li class="listText__item">suggestion du contenu.</li>
                         </ul>
-                        <small class="tableSlider__subtitle">Inconvénients</small>
+                        <small class="tiny">Inconvénients</small>
                         <ul class="listText">
                             <li class="listText__item">Difficile de gérer ses abonnements.</li>
                         </ul>
                     </li>
-                    <li class="tableSlider__item">
-                        <figure class="tableSlider__header">
-                            <img class="tableSlider__image" src="assets/images/instagram.svg" alt="">
-                            <figcaption class="tableSlider__title">Instagram</figcaption>
+                    <li class="slider__item table">
+                        <figure class="table__header">
+                            <img class="table__image" src="assets/images/instagram.svg" alt="">
+                            <figcaption class="tiny tiny--bigger tiny--white">Instagram</figcaption>
                         </figure>
-                        <small class="tableSlider__subtitle">Avantages</small>
+                        <small class="tiny">Avantages</small>
                         <ul class="listText">
                             <li class="listText__item">Follow des hashtags;</li>
                             <li class="listText__item">abonnements facilement gérablent.</li>
                         </ul>
-                        <small class="tableSlider__subtitle">Inconvénients</small>
+                        <small class="tiny">Inconvénients</small>
                         <ul class="listText">
                             <li class="listText__item">Hashtags utilisés pas toujours en rapport avec l'image.</li>
                         </ul>
                     </li>
-                    <li class="tableSlider__item">
-                        <figure class="tableSlider__header">
-                            <img class="tableSlider__image" src="assets/images/linkedin.svg" alt="">
-                            <figcaption class="tableSlider__title">LinkedIn</figcaption>
+                    <li class="slider__item table">
+                        <figure class="table__header">
+                            <img class="table__image" src="assets/images/linkedin.svg" alt="">
+                            <figcaption class="tiny tiny--bigger tiny--white">LinkedIn</figcaption>
                         </figure>
-                        <small class="tableSlider__subtitle">Avantages</small>
+                        <small class="tiny">Avantages</small>
                         <ul class="listText">
                             <li class="listText__item">Follow des hashtags.</li>
                         </ul>
-                        <small class="tableSlider__subtitle">Inconvénients</small>
+                        <small class="tiny">Inconvénients</small>
                         <ul class="listText">
                             <li class="listText__item">Hashtags peu utilisé;</li>
                             <li class="listText__item">hashtags pas mit en avant;</li>
@@ -308,8 +321,8 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="sliderIndicator">
-                    <li class="sliderIndicator__item sliderIndicator__item--enabled">Item 1</li>
+                <ul id="sliderTwoIndicator" class="sliderIndicator">
+                    <li class="sliderIndicator__item sliderIndicator__item--onBlackEnabled">Item 1</li>
                     <li class="sliderIndicator__item">item 2</li>
                     <li class="sliderIndicator__item">item 3</li>
                 </ul>
@@ -317,7 +330,7 @@
                     De manière général, chaque service propose une façon de générer plus précisément ses abonnements et
                     donc d’avoir un contenu plus ou moins adaptés à nos intérêts.
                 </p>
-                <a class="button" href="https://docs.google.com/spreadsheets/d/1aKbafnNYXB3z-S-GHxfKFOvT49DeiRc4KxUGMITnr4I/edit?usp=sharing">Voir
+                <a class="link link--framed" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1aKbafnNYXB3z-S-GHxfKFOvT49DeiRc4KxUGMITnr4I/edit?usp=sharing">Voir
                     comparatif complet</a>
                 <h4 class="title">Pistes</h4>
                 <p>
@@ -330,7 +343,7 @@
                     possible de voir tout les types de contenu que propose l'utilisateur et de pouvoir s'abonner ou non
                     à ceux-ci.
                 </p>
-                <img src="assets/images/solution.png" alt="">
+                <img class="imageWide" src="assets/images/solution.png" alt="">
                 <h4 class="title">Prototype</h4>
                 <p>
                     Après avoir trouver le problème à régler, il me fallait trouver un moyen de bien la réaliser et de
@@ -343,58 +356,65 @@
                     une autre personne depuis la page d’accueil. Pour finir, retourner sur le profil de la première
                     étape et modifier les sous abonnements.
                 </p>
-                <a class="button" href="https://invis.io/6DPZJ3U4N5S">Tester prototype</a>
+                <a class="link link--framed" target="_blank" rel="noopener noreferrer" href="https://invis.io/6DPZJ3U4N5S">Tester prototype</a>
             </section>
-            <section class="section section--white">
+            <section id="groupe" class="section section--white group">
                 <h4 class="title title--big">Groupe</h4>
-                <ul class="groupList">
-                    <li class="groupList__item">
-                        <figure>
+                <ul id="sliderThree" class="slider slider--framed">
+                    <li class="slider__item">
+                        <figure class="groupList">
                             <img class="groupList__picture" src="assets/images/adeline.jpg" alt="">
                             <figcaption class="groupList__description">
-                                <small class="groupList__name">Adeline Hercot</small>
-                                <a class="button" href="https://adelinehercot.be/projets/rethinking-ux">Voir
-                                    case&nbsp;study</a>
+                                <small class="tiny">Adeline Hercot</small>
+                                <a class="link link--framed" target="_blank" rel="noopener noreferrer" href="https://adelinehercot.be/projets/rethinking-ux">Voir case&nbsp;study</a>
                             </figcaption>
                         </figure>
                     </li>
-                    <li class="groupList__item">
-                        <figure>
+                    <li class="slider__item">
+                        <figure class="groupList">
                             <img class="groupList__picture" src="assets/images/benjamin.jpg" alt="">
                             <figcaption class="groupList__description">
-                                <small class="groupList__name">Benjamin Dos Santos</small>
-                                <a class="button" href="https://benjamindossantos.be">Vous y êtes déja</a>
+                                <small class="tiny">Benjamin Dos Santos</small>
+                                <a class="link link--white link--framed link--framedAlt" target="_blank" rel="noopener noreferrer" href="https://benjamindossantos.be">Vous y êtes déja</a>
                             </figcaption>
                         </figure>
                     </li>
-                    <li class="groupList__item">
-                        <figure>
+                    <li class="slider__item">
+                        <figure class="groupList">
                             <img class="groupList__picture" src="assets/images/trystan.jpg" alt="">
                             <figcaption class="groupList__description">
-                                <small class="groupList__name">Trystan Lothaire</small>
-                                <a class="button" href="https://trystanlothaire.be/projets/rethinking-ux">Voir
-                                    case&nbsp;study</a>
+                                <small class="tiny">Trystan Lothaire</small>
+                                <a class="link link--framed" target="_blank" rel="noopener noreferrer" href="https://trystanlothaire.be/projets/rethinking-ux">Voir case&nbsp;study</a>
                             </figcaption>
                         </figure>
                     </li>
-                    <li class="groupList__item">
-                        <figure>
+                    <li class="slider__item">
+                        <figure class="groupList">
                             <img class="groupList__picture" src="assets/images/john.jpg" alt="">
                             <figcaption class="groupList__description">
-                                <small class="groupList__name">Vũ Duy Cường</small>
-                                <a class="button" href="https://duycuongvu.com/projets/rethinking-ux">Voir
-                                    case&nbsp;study</a>
+                                <small class="tiny">Vũ Duy Cường</small>
+                                <a class="link link--framed" target="_blank" rel="noopener noreferrer" href="https://duycuongvu.com/projets/rethinking-ux">Voir case&nbsp;study</a>
                             </figcaption>
                         </figure>
                     </li>
                 </ul>
+                <ul id="sliderThreeIndicator" class="sliderIndicator">
+                    <li class="sliderIndicator__item sliderIndicator__item--enabled">Adeline</li>
+                    <li class="sliderIndicator__item">Benjamin</li>
+                    <li class="sliderIndicator__item">Trystan</li>
+                    <li class="sliderIndicator__item">Vũ</li>
+                </ul>
             </section>
         </main>
         <footer class="section">
+            <noscript class="">
+                <a class="link" href="html/credits.html"></a>
+            </noscript>
             <ul>
-                <li class="tiny">Réalisé avec amour</li>
-                <li class="tiny">Par Benjamin Dos Santos</li>
-                <li class="tiny">DWM | HEAJ</li>
+                <li class="tiny">Réalisé avec &hearts;</li>
+                <li class="tiny">Par <a class="link link--white" target="_blank" rel="noopener noreferrer" href="http://benjamindossantos.be">Benjamin Dos Santos</a></li>
+                <li class="tiny"><a class="link link--white" target="_blank" rel="noopener noreferrer" href="http://www.dwm.re">DWM </a>&#124;
+                    <a class="link link--white" target="_blank" rel="noopener noreferrer" href="https://www.heaj.be">HEAJ </a>&copy;</li>
             </ul>
         </footer>
     </body>
