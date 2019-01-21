@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="152px" height="144px" viewBox="0 0 152 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>up</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Pixel-2" transform="translate(-36.000000, -4540.000000)">
-            <g id="up" transform="translate(36.000000, 4540.000000)">
-                <rect id="Rectangle-Copy-13" fill="#252525" x="0" y="0" width="152" height="144"></rect>
-                <polygon fill="#FFFFFF" transform="translate(76.000000, 72.000000) rotate(-270.000000) translate(-76.000000, -72.000000) " points="50 72 69.5 55 69.5 67.75 102 67.75 102 76.25 69.5 76.25 69.5 89"></polygon>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="144"><title>up</title><desc>Created with Sketch.</desc><g fill="none"><g><g><path fill="#252525" d="M0 0h152v144H0z"/><path fill="#fff" d="M76 46l17 19.5H80.25V98h-8.5V65.5H59z"/></g></g></g></svg>

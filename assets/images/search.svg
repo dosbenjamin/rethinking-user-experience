@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="152px" height="144px" viewBox="0 0 152 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>search</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Pixel-2" transform="translate(-224.000000, -4756.000000)">
-            <g id="search" transform="translate(224.000000, 4756.000000)">
-                <rect id="Rectangle-Copy-16" fill="#252525" x="0" y="0" width="152" height="144"></rect>
-                <path d="M99,89.02 L86.7324322,76.8415 C88.5282512,74.0335833 89.5651918,70.7081667 89.5651918,67.1450833 C89.5671228,57.142 81.3642851,49 71.2825959,49 C61.2009067,49 53,57.142 53,67.147 C53,77.1539167 61.2009067,85.2959167 71.2825959,85.2959167 C74.696583,85.2959167 77.8885064,84.3625 80.6266476,82.741 L92.9772479,95 L99,89.02 Z M60,67.4990317 C60,61.160815 65.1599461,56 71.4990319,56 C77.8400539,56 83,61.1588785 83,67.4990317 C83,73.8411215 77.8400539,79 71.4990319,79 C65.1599461,79 60,73.8411215 60,67.4990317 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="144"><title>search</title><desc>Created with Sketch.</desc><g fill="none"><g><g><path fill="#252525" d="M0 0h152v144H0z"/><path fill="#fff" fill-rule="nonzero" d="M99 89.02L86.73 76.84c1.8-2.8 2.84-6.13 2.84-9.7 0-10-8.2-18.14-18.3-18.14C61.2 49 53 57.14 53 67.15c0 10 8.2 18.15 18.28 18.15 3.42 0 6.6-.94 9.35-2.56L92.98 95 99 89.02zM60 67.5C60 61.16 65.16 56 71.5 56S83 61.16 83 67.5 77.84 79 71.5 79 60 73.84 60 67.5z"/></g></g></g></svg>

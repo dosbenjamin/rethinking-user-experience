@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="152px" height="144px" viewBox="0 0 152 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>message</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Pixel-2" transform="translate(-36.000000, -3892.000000)">
-            <g id="message" transform="translate(36.000000, 3892.000000)">
-                <rect id="Rectangle-Copy-7" fill="#252525" x="0" y="0" width="152" height="144"></rect>
-                <path d="M76,73 L53,55 L99,55 L76,73 Z M76,78.2682342 L53,60 L53,89 L99,89 L99,60 L76,78.2682342 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="144"><title>message</title><desc>Created with Sketch.</desc><g fill="none"><g><g><path fill="#252525" d="M0 0h152v144H0z"/><path fill="#fff" fill-rule="nonzero" d="M76 73L53 55h46L76 73zm0 5.27L53 60v29h46V60L76 78.27z"/></g></g></g></svg>

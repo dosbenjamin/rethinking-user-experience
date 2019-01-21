@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="152px" height="144px" viewBox="0 0 152 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>list</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Pixel-2" transform="translate(-224.000000, -4108.000000)">
-            <g id="list" transform="translate(224.000000, 4108.000000)">
-                <rect id="Rectangle-Copy-10" fill="#252525" x="0" y="0" width="152" height="144"></rect>
-                <path d="M60.6666667,91 L53,91 L53,83.4 L60.6666667,83.4 L60.6666667,91 Z M60.6666667,68.2 L53,68.2 L53,75.8 L60.6666667,75.8 L60.6666667,68.2 Z M60.6666667,53 L53,53 L53,60.6 L60.6666667,60.6 L60.6666667,53 Z M66.4166667,53 L66.4166667,60.6 L99,60.6 L99,53 L66.4166667,53 Z M66.4166667,75.8 L99,75.8 L99,68.2 L66.4166667,68.2 L66.4166667,75.8 Z M66.4166667,91 L99,91 L99,83.4 L66.4166667,83.4 L66.4166667,91 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="144"><title>list</title><desc>Created with Sketch.</desc><g fill="none"><g><g><path fill="#252525" d="M0 0h152v144H0z"/><path fill="#fff" fill-rule="nonzero" d="M60.67 91H53v-7.6h7.67V91zm0-22.8H53v7.6h7.67v-7.6zm0-15.2H53v7.6h7.67V53zm5.75 0v7.6H99V53H66.42zm0 22.8H99v-7.6H66.42v7.6zm0 15.2H99v-7.6H66.42V91z"/></g></g></g></svg>
