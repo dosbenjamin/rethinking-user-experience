@@ -35,7 +35,6 @@ const burgerText = document.querySelectorAll('.burger__item');
 const body = document.body;
 burger.addEventListener('click', (e) => {
     menu.classList.toggle('menu--open');
-    body.classList.toggle('noscroll');
     burgerText.forEach(element => {
         element.classList.toggle('burger__item--open');
     });
@@ -43,7 +42,6 @@ burger.addEventListener('click', (e) => {
 menuLinks.forEach(element => {
     element.addEventListener('click', (e) => {
         menu.classList.remove('menu--open');
-        body.classList.remove('noscroll');
         burgerText.forEach(element => {
             element.classList.remove('burger__item--open');
         });
